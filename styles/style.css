@@ -18,7 +18,7 @@ header {
   display: flex;
   text-align: right;
   justify-content: flex-end;
-  padding: 216px 300px;
+  padding: 350px 300px 0;
   color: white;
 }
 .header_text {
@@ -32,6 +32,7 @@ header {
   margin: 24px 0 32px;
   font-weight: 400;
   font-size: 18px;
+  line-height: 35px;
 }
 .header_text button {
   font-weight: 600;
@@ -44,3 +45,38 @@ header {
 }
 
 /* failure styles */
+
+.failer_container {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  width: 1250px;
+  margin: 150px auto;
+}
+.failer_container img {
+  width: 575px;
+}
+.failer_container h3 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #151414;
+}
+.failer_container p {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 35px;
+  color: #444343;
+  margin: 24px 0;
+}
+.failer_container ul li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 40px;
+  color: #444343;
+}
+.failer_container ul i {
+  color: #16d887;
+  font-size: 25px;
+  margin: 0 15px 0 0;
+}

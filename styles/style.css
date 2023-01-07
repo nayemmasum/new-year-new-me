@@ -157,6 +157,49 @@ section {
   width: 700px;
 }
 
+/* Bonus section styles */
+
+.bonus {
+  background: url("../images/banner/me.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 80%;
+  color: white;
+  border-radius: 15px;
+}
+.about {
+  padding: 200px;
+  line-height: 25px;
+  width: 500px;
+}
+.about h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 30px;
+}
+.about span {
+  color: #008cff;
+  font-size: 55px;
+  font-weight: 800;
+}
+.about th {
+  padding: 10px 0 5px;
+  text-decoration: underline;
+}
+.about th,
+.about td {
+  width: 135px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.about table {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #008cff;
+}
+.about b {
+  color: yellow;
+}
 /* footer styles */
 
 footer {

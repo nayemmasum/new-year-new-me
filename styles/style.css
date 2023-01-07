@@ -134,6 +134,7 @@ section {
   background-size: cover;
   color: white;
   padding: 20px 0 150px;
+  border-radius: 15px;
 }
 
 .callnow button {

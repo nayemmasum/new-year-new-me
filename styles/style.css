@@ -3,6 +3,9 @@
   padding: 0;
   font-family: "Work Sans", sans-serif;
 }
+a {
+  text-decoration: none;
+}
 
 /* header styles */
 
@@ -45,13 +48,14 @@ header {
 }
 
 /* failure styles */
-
+section {
+  width: 1250px;
+  margin: 150px auto;
+}
 .failer_container {
   display: flex;
   align-items: center;
   gap: 130px;
-  width: 1250px;
-  margin: 150px auto;
 }
 .failer_container img {
   width: 575px;
@@ -79,4 +83,107 @@ header {
   color: #16d887;
   font-size: 25px;
   margin: 0 15px 0 0;
+}
+
+/* my plans styles */
+
+.myplans h3 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #151414;
+  text-align: center;
+  margin: 0 0 50px;
+}
+.plans_container {
+  display: flex;
+  text-align: center;
+  gap: 50px;
+}
+.plans_content {
+  width: 300px;
+  height: 197px;
+}
+.plans_content img {
+  width: 100px;
+}
+.myplans h4 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  text-align: center;
+  margin: 25px 0 25px;
+}
+.myplans p {
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 35px;
+  color: #737272;
+  margin: 24px 0;
+}
+
+/* footer styles */
+
+footer {
+  background: #000000;
+  color: white;
+}
+.footer_container {
+  display: flex;
+  gap: 350px;
+  width: 1250px;
+  margin: 0 auto;
+  padding: 150px 0;
+}
+.footer_common {
+  width: 485px;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: left;
+  margin: 0 0 50px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 24px 0;
+}
+.footer_left img {
+  width: 45px;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+footer b {
+  font-size: 24px;
+  font-weight: 500;
+}
+footer form {
+  margin-top: 30px;
+}
+footer form input[type="email"]::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+}
+footer form input[type="email"] {
+  padding: 18px 25px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 250px;
+  color: white;
+  font-weight: 500;
+  background: rgba(0, 0, 0, 0);
+}
+.footer_btn {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 18px 25px;
+  background: #005fac;
+  border-radius: 8px;
+  color: white;
 }

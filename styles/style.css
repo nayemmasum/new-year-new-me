@@ -121,6 +121,41 @@ section {
   margin: 24px 0;
 }
 
+/* call now styles */
+.callnow {
+  background-image: linear-gradient(
+      to left,
+      rgba(245, 246, 252, 0.4),
+      rgba(63, 114, 255, 0.6)
+    ),
+    url(../images/watch.png);
+  width: 80%;
+  height: 400px;
+  background-size: cover;
+  color: white;
+  padding: 20px 0 150px;
+}
+
+.callnow button {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 18px 25px;
+  background: white;
+  border-radius: 8px;
+  color: #008cff;
+  border: none;
+}
+.call_content {
+  padding: 150px 0 150px 70px;
+}
+.call_content {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: left;
+  margin: 0 0 50px;
+  width: 700px;
+}
+
 /* footer styles */
 
 footer {
@@ -129,8 +164,8 @@ footer {
 }
 .footer_container {
   display: flex;
-  gap: 350px;
-  width: 1250px;
+  gap: 470px;
+  width: 1295px;
   margin: 0 auto;
   padding: 150px 0;
 }
